@@ -1,0 +1,112 @@
+/* html */
+@media (width>=800px) {
+  .dancing-script {
+    font-family: "Dancing Script", cursive;
+    /* font-optical-sizing: auto; */
+  }
+
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .order {
+    order: -1;
+  }
+
+  /* operative systemer */
+
+  .grid_1-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid_5-3 {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 20px;
+  }
+
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
+  }
+
+  .grid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+  }
+
+  .order1 {
+    order: -2;
+  }
+
+  /* komponenter */
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .flex_col > :last-child {
+    margin-top: auto;
+  }
+
+  /* galleri */
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .grid_1-1-1-1 img {
+    object-fit: cover;
+  }
+
+  .width {
+    max-width: 65ch;
+  }
+
+  .apple-84 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+
+  .code {
+    grid-column: 3/5;
+    grid-row: 2/3;
+  }
+
+  .desktop-setup {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+
+  .intel-chip {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+
+  .keyboard {
+    grid-column: 2/-1;
+    grid-row: 3/4;
+  }
+
+  .macbook {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+}
